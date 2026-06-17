@@ -4,7 +4,6 @@ Welcome to **Melody Key**! This is a lightweight, responsive virtual piano built
 
 Whether you want to jam out right from your computer keyboard or dive into the low-level mechanics of audio processing and input handling in C, Melody Key brings a classic instrument straight to your digital workspace.
 
----
 
 ##  Features
 
@@ -12,13 +11,14 @@ Whether you want to jam out right from your computer keyboard or dive into the l
 * **Pure C Performance:** No heavy engines or bloated frameworks—just clean, efficient C code showcasing
 * **Lightweight & Portable:** Drops right into your terminal or a minimal window with minimal CPU footprint.
 
----
 
-##  Getting Started
+##  How to compile
 
-Let's get Melody Key up and running on your machine!
+Use:
+gcc main.c -o piano -IC:/Raylib/raylib-6.0_win64_mingw-w64/include -LC:/Raylib/raylib-6.0_win64_mingw-w64/lib -lraylib -lopengl32 -lgdi32 -lwinmm -lm
+then:
+./piano
 
 ### Prerequisites
-Before compiling, ensure you have a C compiler (like `gcc`) installed. You will also need:
-* [List any audio/graphics library you used, e.g., `SDL2` or just "None! Uses native Windows headers"]
+Before compiling, ensure you have a C compiler (like `gcc`) installed. 
 
