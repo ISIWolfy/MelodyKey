@@ -22,9 +22,3 @@ Let's get Melody Key up and running on your machine!
 Before compiling, ensure you have a C compiler (like `gcc`) installed. You will also need:
 * [List any audio/graphics library you used, e.g., `SDL2` or just "None! Uses native Windows headers"]
 
-### Quick Setup
-
-1. **Clone the repo:**
-```bash
-   git clone [https://github.com/YOUR_USERNAME/melody-key.git](https://github.com/YOUR_USERNAME/melody-key.git)
-   cd melody-key
